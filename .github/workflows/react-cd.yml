@@ -31,7 +31,7 @@ jobs:
 
     - name: Install frontend dependencies
       run: npm ci
-      working-directory: ./
+      working-directory: ./mycrud
 
     - name: Build frontend
       run: npm run build
